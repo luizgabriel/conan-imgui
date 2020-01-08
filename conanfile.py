@@ -23,9 +23,9 @@ class IMGUIConan(ConanFile):
             del self.options.fPIC
 
     def source(self):
+        tools.get("{0}/archive/{1}.tar.gz".format(self.homepage, self.version))
         extracted_dir = self.name + "-" + self.version
-        git = tools.Git(folder=extracted_dir)
-        git.clone(self.homepage + ".git", self.version)
+        os.rename(extracted_dir, self._source_subfolder)
 
     def _configure_cmake(self):
         cmake = CMake(self)
