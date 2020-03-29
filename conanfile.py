@@ -17,6 +17,7 @@ class IMGUIConan(ConanFile):
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
     _source_subfolder = "source_subfolder"
+    build_requires = "cmake_installer/2.8.12@conan/stable"
 
     def config_options(self):
         if self.settings.os == 'Windows':
