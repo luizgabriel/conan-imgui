@@ -12,14 +12,6 @@ Bincrafters packages can be found in the following public Conan repository:
 
 *Note: You can click the "Set Me Up" button on the Bintray page above for instructions on using packages from this repository.*
 
-### Installation
-
-```
-git clone https://github.com/luizgabriel/conan-imgui.git
-cd conan-imgui
-conan export . ocornut/stable
-```
-
 ## Issues
 
 If you wish to report an issue or make a request for a Bincrafters package, please do so here:
