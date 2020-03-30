@@ -8,7 +8,7 @@
 
 Bincrafters packages can be found in the following public Conan repository:
 
-[Bincrafters Public Conan Repository on Bintray](https://bintray.com/bincrafters/public-conan)
+[Bincrafters Public Conan Repository on Bintray](https://luizgabriel.bintray.com/conan-repo)
 
 *Note: You can click the "Set Me Up" button on the Bintray page above for instructions on using packages from this repository.*
 
